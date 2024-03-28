@@ -51,7 +51,7 @@ const getComp=()=>{
         } else if (userChoice === "paper") {
          
           userWin = compChoice === "scissors" ? false : true;
-        } else if (userChoice === "scissors") { 
+        } else  { 
             userWin = compChoice === "rock" ? false : true;
         }
         showWinner(userWin, userChoice, compChoice);
